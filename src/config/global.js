@@ -16,8 +16,8 @@ export default {
         imagen: require('@/assets/curso/banner-principal-decorativo-2.svg'),
       },
     ],
-    numeroUnidad: '3',
-    tituloUnidad: 'Gobernanza y tendencias de lo público',
+    numeroUnidad: '2',
+    tituloUnidad: 'La Administración Pública',
   },
   menuPrincipal: {
     menu: [
@@ -31,48 +31,33 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Gobernanza y gestión de redes',
+        titulo: 'Elementos básicos de la estructura administrativa',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo:
-              'Enfoques teóricos sobre la gobernanza en la administración pública',
+            titulo: 'Características de la estructura administrativa',
             hash: 't_1_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.2',
             titulo:
-              'Relación entre gobernanza y gestión eficiente de recursos estatales',
+              'Niveles y clasificación de la administración pública en Colombia',
             hash: 't_1_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.3',
-            titulo: 'Modelos de gobernanza en la administración pública',
+            titulo: 'Principales organismos administrativos en Colombia',
             hash: 't_1_3',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.4',
-            titulo: 'Tendencias globales en la implementación de la gobernanza',
+            titulo: 'Gestión en la estructura administrativa',
             hash: 't_1_4',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.5',
-            titulo:
-              ' La gobernanza multinivel y la descentralización del poder',
-            hash: 't_1_5',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.6',
-            titulo:
-              'La gestión de redes como estrategia para la articulación interinstitucional y la participación ciudadana',
-            hash: 't_1_6',
           },
         ],
       },
@@ -80,21 +65,41 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo:
-          'Gestión pública por procesos vs. gestión pública por resultados',
+        titulo: 'POLÍTICAS PÚBLICAS Y ACCIÓN POLÍTICA',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '2.1',
-            titulo: 'Gestión pública basada en procesos',
+            titulo: 'Definición y características de las políticas públicas',
             hash: 't_2_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.2',
-            titulo: 'Gestión pública orientada a resultados',
+            titulo:
+              'Ciclo de formulación e implementación de políticas públicas',
             hash: 't_2_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.3',
+            titulo: 'Actores en la Formulación de Políticas Públicas',
+            hash: 't_2_3',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.4',
+            titulo:
+              'La acción política y su influencia en la toma de decisiones gubernamentales',
+            hash: 't_2_4',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.5',
+            titulo:
+              'Evaluación y medición del impacto de las políticas públicas',
+            hash: 't_2_5',
           },
         ],
       },
@@ -135,99 +140,126 @@ export default {
   },
   referencias: [
     {
-      referencia:
-        'Aguilar, L. F. (2014). Gobernanza y gestión pública: (ed.). FCE - Fondo de Cultura Económica.',
-      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/109360',
-    },
-    {
-      referencia:
-        'Lasagna, M. (2013). Innovación pública: un modelo de aportación de valor: (ed.). RIL editores.',
-      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/67279',
-    },
-    {
-      referencia:
-        'Peña, L. (2013). Ética y servicio público: ( ed.). Plaza y Valdés (España).',
-      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/43378',
-    },
-    {
-      referencia:
-        'Rovira, A. (Coord.). (2013). Gobernanza democrática: ( ed.). Marcial Pons Ediciones Jurídicas y Sociales.',
-      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/101852',
-    },
-    {
-      referencia:
-        'Departamento Nacional de Planeación. (sf). Herramientas de Innovación Pública.',
+      referencia: 'CEPAL. (2023). Política y Políticas Públicas.',
       link:
-        'https://www.dnp.gov.co/LaEntidad_/subdireccion-general-prospectiva-desarrollo-nacional/direccion-gobierno-ddhh-paz/Paginas/herramientas-de-innovacion-publica.aspx',
+        'https://repositorio.cepal.org/server/api/core/bitstreams/70b2d111-ad5b-421a-8580-ac33de3c0bd4/content',
     },
     {
       referencia:
-        'Departamento Nacional de Planeación. (sf). Sobre innovación pública.',
+        'Constitución Política de Colombia. (1991). Constitución Política de Colombia de 1991.',
       link:
-        'https://www.dnp.gov.co/LaEntidad_/subdireccion-general-prospectiva-desarrollo-nacional/direccion-gobierno-ddhh-paz/Paginas/sobre-innovacion-publica.aspx',
+        'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=4125',
     },
     {
       referencia:
-        'Procuraduría General de la Nación. (sf). Mecanismos de control y rendición de cuentas en el sector público.',
+        'Departamento Nacional de Planeación. (sf). Marco Normativo de la Administración Pública en Colombia.',
+      link: 'https://www.dnp.gov.co',
+    },
+    {
+      referencia:
+        'Escuela Superior de Administración Pública (ESAP). (2017). Estructura y Organización del Estado y la Administración Pública.',
       link:
-        'https://www.dnp.gov.co/LaEntidad_/Direccion-general/oficina-asesora-planeacion/Paginas/mecanismos-control-rendicion-cuentas.aspx',
+        'https://www.funcionpublica.gov.co/eva/gestornormativo/manual-estado/pdf/20_Sector_Funcion_Publica.pdf',
+    },
+    {
+      referencia:
+        'Escuela Superior de Administración Pública (ESAP). (2017). Gestión de las Organizaciones Públicas.',
+      link: 'https://repositoriocdim.esap.edu.co/handle/20.500.14471/26030',
+    },
+    {
+      referencia:
+        'Función Pública. (sf). Modelo Integrado de Planeación y Gestión (MIPG).',
+      link: 'https://www.funcionpublica.gov.co/web/mipg',
+    },
+    {
+      referencia:
+        'Instituto para la Evaluación de Políticas Públicas. (2023). Guía de Evaluación de Diseño de Políticas Públicas.',
+      link:
+        'https://www.sdp.gov.co/sites/default/files/guia_formulacion_implementacion_politicas_publicas.pdf',
+    },
+    {
+      referencia:
+        'Ministerio de Tecnologías de la Información y las Comunicaciones. (sf). Gobierno Digital en Colombia.',
+      link: 'https://gobiernodigital.mintic.gov.co/portal/',
+    },
+    {
+      referencia:
+        'Secretaría Distrital de Planeación. (2023). Guía para la Formulación e Implementación de Políticas Públicas.',
+      link:
+        'https://www.sdp.gov.co/sites/default/files/guia_formulacion_implementacion_politicas_publicas.pdf',
+    },
+    {
+      referencia:
+        'Sánchez, M. (2015). Administración 1: (ed.). Grupo Editorial Patria.',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/39474',
+    },
+    {
+      referencia:
+        'Carles, R. (2021). Teoría de la Organización en la Gestión Pública. Universidad Nacional de Educación a Distancia.',
+      link:
+        'https://content.lpderecho.pe/wp-content/uploads/2021/04/u1-carles-ramio-teoria-de-la-organizacion.pdf',
+    },
+    {
+      referencia:
+        'Guerrero, O. (2006). Teoría Administrativa del Estado. Universidad Nacional Autónoma de México.',
+      link: 'https://omarguerrero.org/pdfs/libros/TAE.pdf',
     },
   ],
   glosario: [
     {
       termino: 'Administración pública',
       significado:
-        'Conjunto de instituciones y procesos que gestionan los recursos y servicios estatales para satisfacer las necesidades de la ciudadanía.',
-    },
-    {
-      termino: 'Articulación interinstitucional',
-      significado:
-        'Coordinación entre diferentes entidades públicas y privadas para lograr objetivos comunes en la gestión gubernamental.',
+        'Conjunto de instituciones, procesos y normativas mediante los cuales el estado gestiona recursos y presta servicios a la ciudadanía.',
     },
     {
       termino: 'Centralización',
       significado:
-        'Modelo administrativo en el que las decisiones y la gestión se concentran en una autoridad o nivel gubernamental único.',
+        'Modelo de organización administrativa en el cual las decisiones y el control de la gestión pública se concentran en el gobierno central.',
     },
     {
       termino: 'Descentralización',
       significado:
-        'Proceso mediante el cual se otorgan competencias y recursos a los gobiernos locales o regionales, promoviendo la autonomía.',
+        'Transferencia de competencias y recursos desde el nivel central del gobierno hacia entidades territoriales o sectoriales con autonomía de gestión.',
     },
     {
       termino: 'Eficiencia',
       significado:
-        'Capacidad de obtener resultados deseados con el mínimo uso de recursos posibles en la gestión pública.',
+        'Uso óptimo de los recursos públicos para alcanzar los objetivos de las políticas gubernamentales con el menor costo posible.',
     },
     {
-      termino: 'Ética en la gestión pública',
+      termino: 'Evaluación de políticas públicas',
       significado:
-        'Conjunto de valores y principios que guían el actuar de los funcionarios públicos en el ejercicio de sus funciones.',
+        'Proceso mediante el cual se mide el impacto, la efectividad y los resultados de las acciones gubernamentales para determinar su pertinencia y mejorar su ejecución.',
     },
     {
       termino: 'Gobernabilidad',
       significado:
-        'Capacidad del gobierno para implementar políticas públicas y mantener la estabilidad institucional.',
+        'Capacidad del gobierno para ejercer su autoridad, implementar políticas públicas y mantener la estabilidad institucional.',
     },
     {
-      termino: 'Gobernanza',
+      termino: 'Gobierno electrónico',
       significado:
-        'Enfoque colaborativo de gestión pública basado en la participación ciudadana y la articulación de múltiples actores.',
+        'Uso de tecnologías de la información y la comunicación (TIC) en la gestión pública para mejorar la prestación de servicios y fortalecer la transparencia.',
     },
     {
       termino: 'Indicadores de desempeño',
       significado:
-        'Herramientas que miden el éxito de las políticas y programas públicos en términos de resultados obtenidos.',
+        'Parámetros utilizados para medir la efectividad de la administración pública en la implementación de programas y políticas.',
     },
     {
-      termino: 'Innovación pública',
+      termino: 'Marco normativo',
       significado:
-        'Proceso de introducción de nuevas ideas, tecnologías y métodos para mejorar los servicios y la gestión gubernamental.',
+        'Conjunto de leyes, decretos y reglamentos que regulan la organización y funcionamiento de la administración pública.',
     },
     {
       termino: 'Participación ciudadana',
       significado:
-        'Proceso mediante el cual los ciudadanos intervienen activamente en la formulación, implementación y evaluación de políticas públicas.',
+        'Mecanismos que permiten a la sociedad intervenir en la formulación, ejecución y evaluación de políticas públicas.',
+    },
+    {
+      termino: 'Política Pública',
+      significado:
+        'Estrategia gubernamental diseñada para abordar problemas sociales, económicos o políticos mediante acciones planificadas y estructuradas.',
     },
   ],
   complementario: [

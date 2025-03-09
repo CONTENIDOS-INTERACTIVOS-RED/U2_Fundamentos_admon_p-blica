@@ -1,1 +1,1 @@
-module.exports = 'Fundamentos de la administración pública'
+module.exports = 'La Administración Pública'

@@ -22,7 +22,7 @@
               .content-wrapper.px-lg-4.pt-lg-4.px-xxl-5.py-xxl-5.text-start
                 p.home-main-title UNIDAD {{ `${globalData.numeroUnidad}` }}
                 h1.home-title.mb-4 {{ globalData.tituloUnidad }}
-                p.descripcion.mb-4 La gobernanza y la gestión de redes en la administración pública permiten la colaboración entre el Estado, el sector privado y la sociedad civil para optimizar recursos y fortalecer la transparencia. La gestión pública puede basarse en procesos, optimizando procedimientos, o en resultados, enfocándose en el impacto social. La innovación mejora la eficiencia y accesibilidad de los servicios, mientras que la ética garantiza transparencia y confianza ciudadana. En Colombia, la descentralización y herramientas como SINERGIA han optimizado la gestión gubernamental, promoviendo participación y eficiencia en la ejecución de políticas públicas.
+                p.descripcion.mb-4 La estructura administrativa organiza la gestión pública en Colombia, garantizando la ejecución de políticas y servicios esenciales. Se basa en la Constitución de 1991 y opera con un modelo mixto que combina centralización y descentralización. Su organización jerárquica facilita la asignación de responsabilidades y la supervisión estatal. Se caracteriza por especialización de funciones, regulación normativa, coordinación interinstitucional y participación ciudadana. Además, incluye organismos centralizados, descentralizados y autónomos, promoviendo eficiencia y equidad territorial. La evaluación y transparencia son claves para optimizar recursos y fortalecer la confianza en la gestión pública.
   
                 .button-container.mt-auto
                   router-link.btn-iniciar.w-100.w-md-auto(:to="{ name: 'introduccion' }")
