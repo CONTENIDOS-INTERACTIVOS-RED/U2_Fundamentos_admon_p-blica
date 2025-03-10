@@ -366,6 +366,14 @@
             img.h-100(style="width: 48px" src='@/assets/componentes/pdf-icon-square.svg', alt='Texto que describa la imagen')
             p.text-small.fs-14px.my-auto.px-2 <strong>Anexo.</strong>Administración pública: principales aportes de la teoría administrativa a la administración pública
 
+
+    .bg-full-width.border-top.actividad.bg-color-actividad
+      .p-4.p-md-5
+        #Actividad                
+          <Actividad :cuestionario="cuestionario"/>
+    
+    
+
     .bg-full-width.border-top-9-azul
       .px-5.pt-5.pb-0
         h2 Material complementario
@@ -389,10 +397,185 @@
 <script>
 import BannerInterno from '../../components/plantilla/BannerInterno'
 export default {
-  name: 'Tema2',
+  name: 'Tema3',
   components: {
     BannerInterno,
   },
+  data: () => ({
+    cuestionario: {
+      tema: 'Análisis y proyección financiera',
+      titulo: 'Ponte a prueba',
+      introduccion:
+        'Demuestra lo que aprendiste en esta unidad y pon a prueba tus conocimientos.',
+      barajarPreguntas: true,
+      preguntas: [
+        {
+          id: 1,
+          texto:
+            '¿Cuál de los siguientes documentos financieros muestra las entradas y salidas de efectivo de una empresa en un periodo determinado?',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Estado de resultados',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Balance general',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Estado de flujo de efectivo',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Estado de cambios en el patrimonio',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            '¡Correcto! El estado de flujo de efectivo es el documento que muestra las entradas y salidas de efectivo.',
+          mensaje_incorrecto:
+            'Incorrecto. El estado de flujo de efectivo es el documento que registra los movimientos de efectivo.',
+        },
+        {
+          id: 2,
+          texto:
+            '¿Qué concepto mide la capacidad de una empresa para cumplir con sus obligaciones a corto plazo mediante la conversión de sus activos en efectivo?',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Rentabilidad',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Liquidez',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Endeudamiento',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Patrimonio neto',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            '¡Correcto! La liquidez mide la capacidad de convertir activos en efectivo para cumplir obligaciones a corto plazo.',
+          mensaje_incorrecto:
+            'Incorrecto. La liquidez es el concepto que mide la capacidad de pago a corto plazo.',
+        },
+        {
+          id: 3,
+          texto:
+            'En un presupuesto, ¿qué elemento representa los recursos que se esperan obtener de la venta de productos o servicios?',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Ingreso operacional',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'Pasivo',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Costo de ventas',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Activo corriente',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            '¡Correcto! El ingreso operacional representa los recursos esperados por ventas de productos o servicios.',
+          mensaje_incorrecto:
+            'Incorrecto. Los ingresos operacionales son los recursos que se esperan de las ventas.',
+        },
+        {
+          id: 4,
+          texto:
+            '¿Cuál de los siguientes elementos es un indicador clave de la rentabilidad de una empresa?',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Pasivo corriente',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Margen de utilidad',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Estado de flujo de efectivo',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Costo de capital',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            '¡Correcto! El margen de utilidad es un indicador clave para medir la rentabilidad empresarial.',
+          mensaje_incorrecto:
+            'Incorrecto. El margen de utilidad es el indicador que mide la rentabilidad.',
+        },
+        {
+          id: 5,
+          texto:
+            '¿Qué técnica de proyección financiera asume que ciertos elementos varían proporcionalmente con las ventas?',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Método de análisis de tendencias',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Método de porcentaje de ventas',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Modelos financieros avanzados',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Análisis de sensibilidad',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            '¡Correcto! El método de porcentaje de ventas asume que ciertos elementos varían proporcionalmente con las ventas.',
+          mensaje_incorrecto:
+            'Incorrecto. El método de porcentaje de ventas es la técnica que asume esta variación proporcional.',
+        },
+      ],
+      mensaje_final_aprobado:
+        '¡Felicitaciones! Has demostrado un buen entendimiento del análisis y proyección financiera.',
+      mensaje_final_reprobado:
+        'Te recomendamos repasar los conceptos de análisis financiero y proyección financiera antes de intentarlo nuevamente.',
+    },
+  }),
   mounted() {
     this.$nextTick(() => {
       this.$aosRefresh()
@@ -401,4 +584,8 @@ export default {
 }
 </script>
 
-<style lang="sass"></style>
+<style lang="sass">
+.material-complementario
+  padding-top: 3rem
+  border-top: 9px solid $color-sistema-e
+</style>
