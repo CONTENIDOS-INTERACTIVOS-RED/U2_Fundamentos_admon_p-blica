@@ -362,7 +362,7 @@
         .col-12.col-xl-7.d-flex.ps-4.ps-xl-5.align-items-center.flex-column
           h2.mb-4.pb-2.me-auto Administración pública: principales aportes de la teoría administrativa a la administración pública
           p.mb-5(data-aos="fade-up") Les invitamos a explorar el documento Administración pública: principales aportes de la teoría administrativa a la administración pública, donde se analiza cómo la teoría administrativa ha influido en la gestión del sector público, optimizando procesos, estructurando instituciones y fortaleciendo la toma de decisiones gubernamentales.
-          a.d-flex.me-auto.w-fit.bg-white.box-shadow.cursor-pointer(data-aos="fade-up" :href="obtenerLink('/downloads/Anexos_Administración pública.pdf')" target="_blank")
+          a.d-flex.me-auto.w-fit.bg-white.box-shadow.cursor-pointer(data-aos="fade-up" :href="obtenerLink('/downloads/Anexo_1.pdf')" target="_blank")
             img.h-100(style="width: 48px" src='@/assets/componentes/pdf-icon-square.svg', alt='Texto que describa la imagen')
             p.text-small.fs-14px.my-auto.px-2 <strong>Anexo.</strong>Administración pública: principales aportes de la teoría administrativa a la administración pública
 
@@ -411,163 +411,148 @@ export default {
       preguntas: [
         {
           id: 1,
-          texto:
-            '¿Cuál de los siguientes documentos financieros muestra las entradas y salidas de efectivo de una empresa en un periodo determinado?',
+          texto: '¿Cuál es un componente esencial en la estructura administrativa de Colombia?',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Estado de resultados',
+              texto: 'Sistema educativo privado',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Balance general',
-              esCorrecta: false,
-            },
-            {
-              id: 'c',
-              texto: 'Estado de flujo de efectivo',
+              texto: 'Entidades descentralizadas',
               esCorrecta: true,
             },
             {
+              id: 'c',
+              texto: 'Partidos políticos',
+              esCorrecta: false,
+            },
+            {
               id: 'd',
-              texto: 'Estado de cambios en el patrimonio',
+              texto: 'Medios de comunicación',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto:
-            '¡Correcto! El estado de flujo de efectivo es el documento que muestra las entradas y salidas de efectivo.',
-          mensaje_incorrecto:
-            'Incorrecto. El estado de flujo de efectivo es el documento que registra los movimientos de efectivo.',
+          mensaje_correcto: '¡Correcto! Las entidades descentralizadas son un componente esencial en la estructura administrativa de Colombia.',
+          mensaje_incorrecto: 'Incorrecto. Las entidades descentralizadas son el componente esencial en la estructura administrativa.',
         },
         {
           id: 2,
-          texto:
-            '¿Qué concepto mide la capacidad de una empresa para cumplir con sus obligaciones a corto plazo mediante la conversión de sus activos en efectivo?',
+          texto: '¿Cuál es una etapa del ciclo de formulación de políticas públicas?',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Rentabilidad',
+              texto: 'Ejecución de auditorías',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Liquidez',
+              texto: 'Identificación del problema',
               esCorrecta: true,
             },
             {
               id: 'c',
-              texto: 'Endeudamiento',
+              texto: 'Contratación de personal',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Patrimonio neto',
+              texto: 'Creación de sistemas privados',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto:
-            '¡Correcto! La liquidez mide la capacidad de convertir activos en efectivo para cumplir obligaciones a corto plazo.',
-          mensaje_incorrecto:
-            'Incorrecto. La liquidez es el concepto que mide la capacidad de pago a corto plazo.',
+          mensaje_correcto: '¡Correcto! La identificación del problema es una etapa clave en el ciclo de formulación de políticas públicas.',
+          mensaje_incorrecto: 'Incorrecto. La identificación del problema es una etapa fundamental del ciclo.',
         },
         {
           id: 3,
-          texto:
-            'En un presupuesto, ¿qué elemento representa los recursos que se esperan obtener de la venta de productos o servicios?',
+          texto: '¿Qué principio NO pertenece a la administración pública?',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Ingreso operacional',
-              esCorrecta: true,
+              texto: 'Legalidad',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Pasivo',
+              texto: 'Transparencia',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Costo de ventas',
+              texto: 'Participación',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Activo corriente',
-              esCorrecta: false,
+              texto: 'Exclusión',
+              esCorrecta: true,
             },
           ],
-          mensaje_correcto:
-            '¡Correcto! El ingreso operacional representa los recursos esperados por ventas de productos o servicios.',
-          mensaje_incorrecto:
-            'Incorrecto. Los ingresos operacionales son los recursos que se esperan de las ventas.',
+          mensaje_correcto: '¡Correcto! La exclusión no es un principio de la administración pública.',
+          mensaje_incorrecto: 'Incorrecto. La exclusión no forma parte de los principios de la administración pública.',
         },
         {
           id: 4,
-          texto:
-            '¿Cuál de los siguientes elementos es un indicador clave de la rentabilidad de una empresa?',
+          texto: '¿Cuál de los siguientes actores desempeña un papel clave en la formulación de políticas públicas?',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Pasivo corriente',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: 'Margen de utilidad',
+              texto: 'Sociedad civil',
               esCorrecta: true,
             },
             {
+              id: 'b',
+              texto: 'Entidades comerciales internacionales',
+              esCorrecta: false,
+            },
+            {
               id: 'c',
-              texto: 'Estado de flujo de efectivo',
+              texto: 'Medios de comunicación privados',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Costo de capital',
+              texto: 'Partidos de oposición',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto:
-            '¡Correcto! El margen de utilidad es un indicador clave para medir la rentabilidad empresarial.',
-          mensaje_incorrecto:
-            'Incorrecto. El margen de utilidad es el indicador que mide la rentabilidad.',
+          mensaje_correcto: '¡Correcto! La sociedad civil es un actor clave en la formulación de políticas públicas.',
+          mensaje_incorrecto: 'Incorrecto. La sociedad civil juega un papel fundamental en este proceso.',
         },
         {
           id: 5,
-          texto:
-            '¿Qué técnica de proyección financiera asume que ciertos elementos varían proporcionalmente con las ventas?',
+          texto: '¿Qué significa "gobierno electrónico" en el contexto de la modernización de la administración pública?',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Método de análisis de tendencias',
+              texto: 'Uso exclusivo de correos electrónicos en instituciones',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Método de porcentaje de ventas',
+              texto: 'Implementación de tecnología para optimizar servicios públicos',
               esCorrecta: true,
             },
             {
               id: 'c',
-              texto: 'Modelos financieros avanzados',
+              texto: 'Sustitución del personal humano por sistemas digitales',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Análisis de sensibilidad',
+              texto: 'Creación de redes sociales gubernamentales',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto:
-            '¡Correcto! El método de porcentaje de ventas asume que ciertos elementos varían proporcionalmente con las ventas.',
-          mensaje_incorrecto:
-            'Incorrecto. El método de porcentaje de ventas es la técnica que asume esta variación proporcional.',
+          mensaje_correcto: '¡Correcto! El gobierno electrónico se refiere a la implementación de tecnología para optimizar servicios públicos.',
+          mensaje_incorrecto: 'Incorrecto. El gobierno electrónico implica la implementación de tecnología para mejorar los servicios públicos.',
         },
       ],
       mensaje_final_aprobado:
