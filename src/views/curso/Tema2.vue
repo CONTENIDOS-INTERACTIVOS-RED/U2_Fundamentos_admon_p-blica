@@ -411,7 +411,8 @@ export default {
       preguntas: [
         {
           id: 1,
-          texto: '¿Cuál es un componente esencial en la estructura administrativa de Colombia?',
+          texto:
+            '¿Cuál es un componente esencial en la estructura administrativa de Colombia?',
           barajarRespuestas: true,
           opciones: [
             {
@@ -435,12 +436,15 @@ export default {
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Correcto! Las entidades descentralizadas son un componente esencial en la estructura administrativa de Colombia.',
-          mensaje_incorrecto: 'Incorrecto. Las entidades descentralizadas son el componente esencial en la estructura administrativa.',
+          mensaje_correcto:
+            '¡Correcto! Las entidades descentralizadas son un componente esencial en la estructura administrativa de Colombia.',
+          mensaje_incorrecto:
+            'Incorrecto. Las entidades descentralizadas son el componente esencial en la estructura administrativa.',
         },
         {
           id: 2,
-          texto: '¿Cuál es una etapa del ciclo de formulación de políticas públicas?',
+          texto:
+            '¿Cuál es una etapa del ciclo de formulación de políticas públicas?',
           barajarRespuestas: true,
           opciones: [
             {
@@ -464,8 +468,10 @@ export default {
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Correcto! La identificación del problema es una etapa clave en el ciclo de formulación de políticas públicas.',
-          mensaje_incorrecto: 'Incorrecto. La identificación del problema es una etapa fundamental del ciclo.',
+          mensaje_correcto:
+            '¡Correcto! La identificación del problema es una etapa clave en el ciclo de formulación de políticas públicas.',
+          mensaje_incorrecto:
+            'Incorrecto. La identificación del problema es una etapa fundamental del ciclo.',
         },
         {
           id: 3,
@@ -493,12 +499,15 @@ export default {
               esCorrecta: true,
             },
           ],
-          mensaje_correcto: '¡Correcto! La exclusión no es un principio de la administración pública.',
-          mensaje_incorrecto: 'Incorrecto. La exclusión no forma parte de los principios de la administración pública.',
+          mensaje_correcto:
+            '¡Correcto! La exclusión no es un principio de la administración pública.',
+          mensaje_incorrecto:
+            'Incorrecto. La exclusión no forma parte de los principios de la administración pública.',
         },
         {
           id: 4,
-          texto: '¿Cuál de los siguientes actores desempeña un papel clave en la formulación de políticas públicas?',
+          texto:
+            '¿Cuál de los siguientes actores desempeña un papel clave en la formulación de políticas públicas?',
           barajarRespuestas: true,
           opciones: [
             {
@@ -522,12 +531,15 @@ export default {
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Correcto! La sociedad civil es un actor clave en la formulación de políticas públicas.',
-          mensaje_incorrecto: 'Incorrecto. La sociedad civil juega un papel fundamental en este proceso.',
+          mensaje_correcto:
+            '¡Correcto! La sociedad civil es un actor clave en la formulación de políticas públicas.',
+          mensaje_incorrecto:
+            'Incorrecto. La sociedad civil juega un papel fundamental en este proceso.',
         },
         {
           id: 5,
-          texto: '¿Qué significa "gobierno electrónico" en el contexto de la modernización de la administración pública?',
+          texto:
+            '¿Qué significa "gobierno electrónico" en el contexto de la modernización de la administración pública?',
           barajarRespuestas: true,
           opciones: [
             {
@@ -537,7 +549,8 @@ export default {
             },
             {
               id: 'b',
-              texto: 'Implementación de tecnología para optimizar servicios públicos',
+              texto:
+                'Implementación de tecnología para optimizar servicios públicos',
               esCorrecta: true,
             },
             {
@@ -551,8 +564,10 @@ export default {
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Correcto! El gobierno electrónico se refiere a la implementación de tecnología para optimizar servicios públicos.',
-          mensaje_incorrecto: 'Incorrecto. El gobierno electrónico implica la implementación de tecnología para mejorar los servicios públicos.',
+          mensaje_correcto:
+            '¡Correcto! El gobierno electrónico se refiere a la implementación de tecnología para optimizar servicios públicos.',
+          mensaje_incorrecto:
+            'Incorrecto. El gobierno electrónico implica la implementación de tecnología para mejorar los servicios públicos.',
         },
       ],
       mensaje_final_aprobado:
